@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/img/logo.svg';
+import cv from '../assets/doc/RESUME-WILDAN_LUQMANUL_HAKIM.pdf';
 import {
     BrowserRouter as Router
 } from "react-router-dom";
@@ -9,9 +9,6 @@ import {
 import './css/NavBar.css';
 
 export const NavBar = () => {
-    const openInNewTab = url => {
-        window.open(url, '_blank', 'noopener,noreferrer');
-    };
 
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -53,7 +50,7 @@ export const NavBar = () => {
                             <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                         </Nav>
                         <span className="navbar-text">
-                            <button className="vvd" onClick={() => openInNewTab('')}><span>Download CV</span></button>
+                            <a className="vvd" href={cv} target="_blank" rel="noreferrer" ><span>Download CV</span></a>
                         </span>
                     </Navbar.Collapse>
                 </Container>
