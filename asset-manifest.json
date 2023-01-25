@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b4bfaf4.css",
-    "main.js": "/portfolio/static/js/main.6c2fded4.js",
+    "main.css": "/portfolio/static/css/main.bde91a7d.css",
+    "main.js": "/portfolio/static/js/main.ac951fa0.js",
+    "static/media/RESUME-WILDAN_LUQMANUL_HAKIM.pdf": "/portfolio/static/media/RESUME-WILDAN_LUQMANUL_HAKIM.6c8ca8b8d1cf5a847ebe.pdf",
     "static/media/header-img.svg": "/portfolio/static/media/header-img.fcfee70ab2d83571b32a35da6f47c03c.svg",
     "static/media/healclin.png": "/portfolio/static/media/healclin.9e0462148553de380148.png",
     "static/media/kyn.png": "/portfolio/static/media/kyn.d7e9ae79d34f1cc06465.png",
@@ -27,11 +28,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/intellij.svg": "/portfolio/static/media/intellij.09d946ad40c81de2542ed4562aba71d0.svg",
-    "main.0b4bfaf4.css.map": "/portfolio/static/css/main.0b4bfaf4.css.map",
-    "main.6c2fded4.js.map": "/portfolio/static/js/main.6c2fded4.js.map"
+    "main.bde91a7d.css.map": "/portfolio/static/css/main.bde91a7d.css.map",
+    "main.ac951fa0.js.map": "/portfolio/static/js/main.ac951fa0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b4bfaf4.css",
-    "static/js/main.6c2fded4.js"
+    "static/css/main.bde91a7d.css",
+    "static/js/main.ac951fa0.js"
   ]
 }
